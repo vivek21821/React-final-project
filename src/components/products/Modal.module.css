@@ -1,0 +1,10 @@
+.modal {
+  background-color: #435c70;
+}
+.modal input {
+  margin-bottom: 0px;
+}
+.modal .btn {
+  display: block;
+  width: 100%;
+}

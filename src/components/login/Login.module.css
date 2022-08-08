@@ -1,0 +1,15 @@
+.logincontainer {
+  background-color: #435c70;
+  max-width: 470px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.logincontainer div {
+  width: 100%;
+}
+p.err {
+  color: #fff;
+}

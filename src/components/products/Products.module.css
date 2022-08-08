@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+i {
+  background-color: rgba(255, 255, 255, 0.216);
+  padding: 10px;
+  border-radius: 10px;
+}
+i:hover {
+  cursor: pointer;
+}
+.container > div {
+  background-color: #435c70;
+  padding: 40px;
+}
+.tablebody {
+  height: 450px;
+  overflow-y: scroll;
+  width: 100% !important;
+}
+
+.addproductmodal {
+  width: 57%;
+}
+.container div:first-child {
+  width: 57%;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+  .container div:first-child {
+    width: 81%;
+    margin-bottom: 30px;
+  }
+}

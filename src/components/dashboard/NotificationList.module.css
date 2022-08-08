@@ -1,0 +1,32 @@
+.container {
+  background-color: #435c70;
+  padding: 40px;
+  margin-right: 0px !important;
+  overflow-y: scroll;
+  height: 400px;
+  margin-bottom: 40px;
+}
+.notificationcontainer {
+  display: flex;
+  background-color: #4e657a;
+  margin-bottom: 20px;
+  padding: 15px 15px 5px;
+}
+.notificationcontainer img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-right: 18px;
+}
+.notificationcontainer {
+  color: #fff;
+  line-height: 1.5;
+}
+.notificationcontainer p span {
+  font-weight: 400;
+  font-size: 90%;
+  line-height: 2.5;
+}
+.notificationcontainer p {
+  margin-top: 0px;
+}

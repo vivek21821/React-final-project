@@ -1,0 +1,29 @@
+.padding-class {
+  padding: 57px 145px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background: #3a4f63;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 0px;
+  background: #6e8da6;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #3a4f63;
+}
+
+@media (max-width: 767px) {
+  .padding-class {
+    padding: 50px 30px;
+  }
+}

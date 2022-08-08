@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #4e657a;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+h1 a {
+  color: #fff;
+}
+h2 {
+  margin-top: 0px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+label {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+button {
+  color: #fff;
+  background-color: #f5a623;
+  border: 2px solid #f5a623;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 13px 28px;
+  transition: all 0.2s ease;
+  max-width: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn:hover {
+  color: #f5a623;
+  background-color: transparent;
+  border: 2px solid #f5a623;
+}
+input,
+select,
+textarea {
+  display: block;
+  width: -webkit-fill-available;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 10px 18px;
+  border-radius: 0;
+  background-color: #54657d;
+  color: #fff;
+  border: 0;
+  margin: 10px 0px 20px;
+}
+.text-center {
+  text-align: center;
+}
+input:focus,
+select:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  background-color: #50697f;
+  color: #fff;
+  font-size: 85%;
+  margin-bottom: 0;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 15px 20px;
+  border-top: 1px solid #415a70;
+}
+table td strong {
+  font-weight: 500;
+}
+table th {
+  border: none !important;
+}
+thead {
+  background-color: #486177;
+  text-transform: uppercase;
+}
+
+/* input[type="checkbox"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #394e64;
+  background-position: center;
+  border-radius: 100%;
+  box-sizing: border-box;
+  position: relative;
+  box-sizing: content-box;
+  width: 0.1px;
+  height: 0.1px;
+  transition: all 0.1s linear;
+}
+input[type="checkbox"]:checked {
+  background: url(https://templatemo.com/templates/templatemo_524_product_admin/img/check-mark.png)
+    #394e64 center no-repeat;
+}
+input[type="checkbox"]:focus {
+  outline: 0 none;
+  box-shadow: none;
+} */
